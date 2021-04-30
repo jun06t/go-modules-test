@@ -3,5 +3,5 @@ package echo
 import "fmt"
 
 func Call() {
-	fmt.Println("no major version")
+	fmt.Println("0.1.0")
 }
