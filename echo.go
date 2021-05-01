@@ -3,5 +3,5 @@ package echo
 import "fmt"
 
 func Call() {
-	fmt.Println("1.2.3")
+	fmt.Println("2.0.1")
 }
