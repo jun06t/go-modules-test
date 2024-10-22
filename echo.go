@@ -1,7 +1,13 @@
 package echo
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/jun06t/A"
+	"github.com/jun06t/B"
+)
 
 func Call() {
-	fmt.Println("2.1.0")
+	fmt.Println(A.Func())
+	fmt.Println(B.Func())
 }
